@@ -8,15 +8,21 @@ MovieMatchMaker est une plateforme de recommandation de films en fonction des pr
 Filtres de Recommandation : Basé sur la similarité des genres, évaluations, et historiques.
 Interface Intuitive : Interface utilisateur créée avec Streamlit pour une utilisation facile.
 Recommandations : Génération rapide de suggestions de films.
+
+
 🚀 Technologies Utilisées
 Python : Pour le traitement des données, le nettoyage, et l’entraînement des modèles.
 Machine Learning : Algorithmes de similarité de contenu et autres caractéristiques
 Streamlit : Pour concevoir une interface utilisateur interactive.
+
+
 📂 Structure du Projet
 data/ : Ensemble des fichiers de données utilisés pour l’entraînement et la validation des modèles.
 movies.pkl : Modèle de machine learning pré-entraîné dans ce projet.
 app.py : Fichier principal pour lancer l’application Streamlit.
 README.md : Documentation complète du projet.
+
+
 📖 Guide d’Utilisation:
 Cloner le dépôt :
 git clone https://github.com/mdtech100/MovieMatchMaker.git
@@ -27,6 +33,7 @@ pip install -r requirements.txt
 
 Lancer l’application :
 streamlit run app.py
+
 
 📈 Modèles de Machine Learning
 Le modèle de recommandation inclus dans ce projet est basé sur :
